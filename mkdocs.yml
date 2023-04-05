@@ -1,0 +1,19 @@
+site_name: Hogarcito
+repo_name: saphyel/hogarcito
+theme:
+  name: material
+  language: es
+nav:
+  - Inicio: index.md
+  - OS: 
+    - Debian: os/debian.md
+    - Raspberry Pi OS: os/raspios.md
+    - Ubuntu: os/ubuntu.md
+    - Windows: os/windows.md
+  - Apps:
+    - Git: app/git.md
+    - SSH: app/ssh.md
+    - Bash: app/bash.md
+    - Samba: app/samba.md
+    - UFW: app/ufw.md
+    - ExecShield: app/execshield.md
