@@ -5,7 +5,7 @@
 ```
 sudo apt install gnome-session gnome-shell nautilus gnome-console gnome-calendar 
 sudo apt install geary gnome-tweaks gnome-calculator eog gnome-system-monitor
-sudo apt install transmission-gtk file-roller gnome-music gnome-text-editor
+sudo apt install transmission-gtk evince gnome-music gnome-text-editor
 sudo apt install shotwell seahorse gnome-disk-utility gnome-software
 ```
 
