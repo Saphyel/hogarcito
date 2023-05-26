@@ -15,5 +15,4 @@ nav:
     - SSH: app/ssh.md
     - Bash: app/bash.md
     - Samba: app/samba.md
-    - UFW: app/ufw.md
     - ExecShield: app/execshield.md
