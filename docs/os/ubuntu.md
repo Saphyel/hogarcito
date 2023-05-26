@@ -42,8 +42,7 @@ sudo add-apt-repository ppa:somerville-dla-team/ppa
 sudo apt install oem-somerville-meta
 ```
 
-https://docs.docker.com/engine/install/
-
-https://code.visualstudio.com/docs/setup/linux
-
-https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone
+## Enlances utiles
+* [Docker](https://docs.docker.com/engine/install/)
+* [VS Code](https://code.visualstudio.com/docs/setup/linux)
+* [Pycharm](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
