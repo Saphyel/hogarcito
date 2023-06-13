@@ -3,16 +3,17 @@
 ## Configuracion basica
 
 ```
-git config --global core.safecrlf false
-git config --global core.autocrlf false
-git config --global core.ignorecase false
 git config --global branch.autosetuprebase always
-git config --global push.autoSetupRemote true
 git config --global color.ui true
-git config --global diff.renames copies
-git config --global core.editor vim
-git config --global core.excludesfile ~/.gitignore
 git config --global core.attributesfile ~/.gitattributes
+git config --global core.excludesfile ~/.gitignore
+git config --global core.autocrlf false
+git config --global core.safecrlf false
+git config --global core.ignorecase false
+git config --global core.editor vim
+git config --global diff.renames copies
+git config --global fetch.prune true
+git config --global push.autoSetupRemote true
 git config --global user.email Saphyel@ejemplo.es
 git config --global user.name Saphyel
 ```
