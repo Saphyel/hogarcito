@@ -4,6 +4,7 @@
 
 ```
 git config --global branch.autosetuprebase always
+git config --global branch.sort -committerdate
 git config --global color.ui true
 git config --global core.attributesfile ~/.gitattributes
 git config --global core.excludesfile ~/.gitignore
@@ -13,7 +14,13 @@ git config --global core.ignorecase false
 git config --global core.editor vim
 git config --global diff.renames copies
 git config --global fetch.prune true
-git config --global push.autoSetupRemote true
+git config --global fetch.prunetags true
+git config --global rebase.autosquash true
+git config --global rebase.autostash true
+git config --global push.default current
+git config --global push.followtags true
+git config --global rerere.enabled true
+git config --global tag.sort -taggerdate
 git config --global user.email Saphyel@ejemplo.es
 git config --global user.name Saphyel
 ```
