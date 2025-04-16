@@ -2,7 +2,7 @@
 
 ## Mandatorio
 ```
-sudo apt install git vim curl vlc firmware-linux build-essential libavcodec-extra
+sudo apt install git vim curl vlc firmware-linux build-essential libavcodec-extra pkg-config libssl-dev
 sudo journalctl --vacuum-time=7days
 sudo apt update;sudo apt upgrade -y;sudo apt autoremove -y;sudo apt autoclean;sudo fwupdmgr get-updates
 sudo cp /usr/share/doc/nftables/examples/workstation.nft /etc/nftables.conf
